@@ -1,9 +1,10 @@
 # TweetMyRiver
 
-This repository contains the three python files of the three execuatbles of automated processes in the plug-in (Data extraction, data translation and filtering, and the final predictions).
+This repository contains three Python files corresponding to the executable processes in the plugin: data extraction, data translation and filtering, and final predictions.
 
-From this code we generater the ".exe" files used in the plug-in by using the "pyinstaller" library.
+We have used the "pyinstaller" library to generate the ".exe" files used in the plugin.
 
-The ".exe" files are accessible inside the plug-in folder. To find this folder first you need to access the QGIS folder (usually inside the "roaming" folder) then you have to enter the "QGIS3" folder, after that enter in "profiles", then "default" (or the profile from which you work in QGIS), then "python", then "plugins", after that enter on the plugin (you need to have it downloaded first) "Tweet my river", then "allProcesses", and finally inside the "EXECUTABLES" folder you can find and replace the ".exe" files. Note that if you replace the files with your code they MUST have the same name as they have now, otherwise the plugin might not work as expected.
+You can find the ".exe" files inside the plugin folder. To locate this folder, first access the QGIS folder (usually located in the "roaming" folder). Then navigate to the "QGIS3" folder, followed by "profiles", "default" (or the profile you are using in QGIS), "python", "plugins", and then enter the "Tweet my river" plugin folder (make sure you have downloaded it first). Inside the "allProcesses" folder, you will find the "EXECUTABLES" folder where you can replace the existing ".exe" files. Note that if you replace the files with your own code, they must have the same names as the original files; otherwise, the plugin may not work as expected.
 
-For any changes and suggestions for the plug-in code, please contact us at ollorente@icra.cat.
+For any changes and suggestions regarding the plugin code, please contact us at ollorente@icra.cat.
+
