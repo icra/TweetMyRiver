@@ -1,0 +1,48 @@
+# This file contains metadata for your plugin.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=Tweet my river
+qgisMinimumVersion=3.0
+description=AI Tweet classifier for river layers
+version=1.0
+author=Oliu Llorente, Francesc Comalada, Joan Saló, Xavier Garcia and Vicenç Acuña / ICRA
+email=ollorente@icra.cat
+
+about=This plugin was generated with Plugin Builder and enables users to extract, translate, and filter tweets from a river layer, allowing for their classification into different Cultural Ecosystem Services categories. For detailed instructions on how to use the plugin and understand its structure, please visit the "homepage" option on this page, where you will find a comprehensive video tutorial. To ensure the plugin's functionality, it requires certain external Python libraries. The recommended versions of these libraries are as follows: Tweepy==4.12.1, openpyxl==3.0.10, deep_translator==1.11.0, nltk==3.8.1, scikit_learn==1.2.1, xlsxwriter==3.0.8. For additional help on how to install these libraries on the QGIS Python environment on Windows by using the OSGeo4W shell, please refer to the instructions provided in the readme file on the code repository.
+
+
+tracker=http://bugs
+repository=https://github.com/icra/TweetMyRiver.
+# End of mandatory metadata
+
+# Recommended items:
+
+hasProcessingProvider=yes
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=python, Cultural Ecosystem Services, Freshwater ecosystems
+
+homepage=https://www.youtube.com/watch?v=xF1VT5qy0NI
+category=Analysis
+icon=icon.png
+# experimental flag
+experimental=False
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
+# Since QGIS 3.8, a comma separated list of plugins to be installed
+# (or upgraded) can be specified.
+# Check the documentation for more information.
+# plugin_dependencies=
+
+Category of the plugin: Raster, Vector, Database or Web
+#category= Vector
+
+# If the plugin can run on QGIS Server.
+server=False
+
